@@ -17,7 +17,7 @@ with open(htmlfile,"r") as f:
     f.close()
 
 data={"sub":"Testing Emial","email":"","from":"no-reply@localhost","message":msg,"submit":"Submit"}
-url="https://localhost/mailer.php"
+url="https://localhost/Honk.php"
 proxies = {
     'http': 'socks5://127.0.0.1:9050',
     'https': 'socks5://127.0.0.1:9050'
